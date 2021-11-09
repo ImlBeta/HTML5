@@ -1,0 +1,46 @@
+
+body{
+	background-color: ligthgray;
+
+
+	font-family: 'Fruktur', cursive;
+
+}
+
+#contenedor{
+	background-color: ligthblue;
+
+	text-align: center;
+
+	border: 5px solid darkblue;
+
+	height: 50px;
+
+	margin-top: 5px;
+
+	margin-right: 5px;
+
+	margin-bottom: 8px;
+
+}
+
+.imagen{
+	
+	margin-left: 70px;
+
+	height: 250px;
+
+	width: 320px;
+
+}
+
+img {
+
+	display: inline;
+
+	border-radius: 5px 15px 20px 30px;
+
+	box-shadow: rgb(150,150,150) 10px 10px;
+
+}
+

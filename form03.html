@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Playeras</title>
+</head>
+<body>
+	<h3>Configura tu playera</h3>
+	<form name="formulario3" method="get" action="baseDatos.php">
+		<label>Elige un color:</label>
+		<input type="color" name="colores"><br>
+
+		<label>¿Cuando la quieres</label>
+		<input type="date" name="fecha"><br>
+
+		<label>Escribe tu email:</label>
+		<input type="email" name="correo" required=""><br>
+
+		<label>Cuantas quieres::</label>
+		<input type="number" name="cantidad" min="0" max="21" step="3"><br>
+
+		<label>Horario:</label>
+		<input type="range" name="rango" min="10" max="20">
+
+		<input type="submit" name="enviar" values='enviar'>
+
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>
